@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-05T07:12:18Z" name="Online Shopping Scenario" finished-at="2021-02-05T07:13:57Z" duration-ms="98931">
+  <suite started-at="2021-02-05T10:25:00Z" name="Online Shopping Scenario" finished-at="2021-02-05T10:26:50Z" duration-ms="110316">
     <groups>
     </groups>
-    <test started-at="2021-02-05T07:12:18Z" name="E2E Flow" finished-at="2021-02-05T07:12:32Z" duration-ms="14262">
+    <test started-at="2021-02-05T10:25:00Z" name="E2E Flow" finished-at="2021-02-05T10:25:17Z" duration-ms="17656">
       <class name="com.shopping.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T07:12:18Z" name="setup" finished-at="2021-02-05T07:12:30Z" duration-ms="12040" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T10:25:00Z" name="setup" finished-at="2021-02-05T10:25:13Z" duration-ms="13746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T07:12:30Z" name="loginTest" description="Verifies Login feature" finished-at="2021-02-05T07:12:32Z" duration-ms="2106" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T10:25:13Z" name="loginTest" description="Verifies Login feature" finished-at="2021-02-05T10:25:17Z" duration-ms="3739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T07:12:32Z" name="tearDown" finished-at="2021-02-05T07:12:32Z" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.LoginPageTest@71e693fa]" started-at="2021-02-05T10:25:17Z" name="tearDown" finished-at="2021-02-05T10:25:17Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopping.qa.testcases.LoginPageTest -->
     </test> <!-- E2E Flow -->
-    <test started-at="2021-02-05T07:12:32Z" name="E2E Flow2" finished-at="2021-02-05T07:12:56Z" duration-ms="23306">
+    <test started-at="2021-02-05T10:25:17Z" name="E2E Flow2" finished-at="2021-02-05T10:25:43Z" duration-ms="25329">
       <class name="com.shopping.qa.testcases.MyAddressesPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T07:12:32Z" name="setup" finished-at="2021-02-05T07:12:50Z" duration-ms="17827" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T10:25:17Z" name="setup" finished-at="2021-02-05T10:25:37Z" duration-ms="20003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewAddressTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T07:12:51Z" name="addNewAddressTest" data-provider="AddressDataProvider" finished-at="2021-02-05T07:12:56Z" duration-ms="4799" status="PASS">
+        <test-method signature="addNewAddressTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T10:25:38Z" name="addNewAddressTest" data-provider="AddressDataProvider" finished-at="2021-02-05T10:25:43Z" duration-ms="4394" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,27 +98,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAddressTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T07:12:56Z" name="tearDown" finished-at="2021-02-05T07:12:56Z" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.MyAddressesPageTest@41ab013]" started-at="2021-02-05T10:25:43Z" name="tearDown" finished-at="2021-02-05T10:25:43Z" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.shopping.qa.testcases.MyAddressesPageTest -->
     </test> <!-- E2E Flow2 -->
-    <test started-at="2021-02-05T07:12:56Z" name="E2E Flow3" finished-at="2021-02-05T07:13:57Z" duration-ms="61326">
+    <test started-at="2021-02-05T10:25:43Z" name="E2E Flow3" finished-at="2021-02-05T10:26:50Z" duration-ms="67293">
       <class name="com.shopping.qa.testcases.DressCategoryPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T07:12:56Z" name="setup" finished-at="2021-02-05T07:13:14Z" duration-ms="18315" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T10:25:43Z" name="setup" finished-at="2021-02-05T10:26:04Z" duration-ms="21651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addProduct()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T07:13:14Z" name="addProduct" finished-at="2021-02-05T07:13:37Z" duration-ms="23092" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T10:26:04Z" name="addProduct" finished-at="2021-02-05T10:26:27Z" duration-ms="22394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="checkoutProcess()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T07:13:37Z" name="checkoutProcess" finished-at="2021-02-05T07:13:57Z" duration-ms="19835" status="PASS">
+        <test-method signature="checkoutProcess()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T10:26:27Z" name="checkoutProcess" finished-at="2021-02-05T10:26:50Z" duration-ms="23110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutProcess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T07:13:57Z" name="tearDown" finished-at="2021-02-05T07:13:57Z" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shopping.qa.testcases.DressCategoryPageTest@6f7923a5]" started-at="2021-02-05T10:26:50Z" name="tearDown" finished-at="2021-02-05T10:26:50Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

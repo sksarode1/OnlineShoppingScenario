@@ -14,6 +14,7 @@ import com.shopping.qa.pages.DressCategoryPage;
 import com.shopping.qa.pages.HomePage;
 import com.shopping.qa.pages.LoginPage;
 import com.shopping.qa.pages.MyAddressesPage;
+import com.shopping.qa.pages.OrderHistoryPage;
 import com.shopping.qa.pages.ProductDetailsPage;
 import com.shopping.qa.util.TestUtility;
 
@@ -25,6 +26,7 @@ public class DressCategoryPageTest extends BrowserUtility {
 	private AddNewAddressPage addNewAddressPage;
 	private DressCategoryPage dressCategoryPage;
 	private CheckoutPage checkoutPage;
+	private OrderHistoryPage orderHistoryPage;
 	private int total = 0;
 	private int count;
 
@@ -56,12 +58,17 @@ public class DressCategoryPageTest extends BrowserUtility {
 	public void checkoutProcess() {
 		checkoutPage = new CheckoutPage();
 		homePage = checkoutPage.continueToShop();
+		
+		homePage.goToOrderHistoryPage();
+		orderHistoryPage = new OrderHistoryPage();
 		try {
-			homePage.goToOrderHistoryPage().captureScreenshot("temp");
+			orderHistoryPage.captureScreenshot("temp");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		};
+		
+		orderHistoryPage.signOut();
 	}
 	
 	@AfterTest
